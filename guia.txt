@@ -1,0 +1,11 @@
+1)npm init --y (crea un proyecto nuevo de node.js (crea mi package.json))
+2)npm i express ejs mysql body-parser (instalo modulos: express y ejs(que es un motor de plantillas) mysql:bd y body-parser:permite enviar datos del navegador al servidor)
+3)organización: carpeta src/app + src/config/server.js (tendrá toda la configuración del servidor de express) + src/app/routes (donde tendremos todas las rutas del servidor) src/sql +src/index.js 
+    3.1-index.js sera el que inicie mi aplicación , así que la vinculo en mi package.json :
+    3.2-"script":{
+        "start":"node src/index.js",
+    }
+4)
+5)"sql" podemos usar phpmyadmin o algun administrador de base de datos. 
+    5.1- para este ejemplo usaremos la consola:
+    5.2- sudo mysql -u -root -p 
